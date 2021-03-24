@@ -14,6 +14,14 @@ function setup() {
 
 function draw() {
    image(img, -50,0,img.width, img.height)
+  
+  push();
+fill(100, 100, 10);
+  textSize(32);
+text('Me and the boys at 2 am', 10, 40);
+text('looking for BEANS', 30, 350);
+pop();
+  
 //boy 1
   push();
   translate(300-x,150-y);
